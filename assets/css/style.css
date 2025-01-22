@@ -1,0 +1,133 @@
+/* importing Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
+
+/* CSS for the hero section */
+.hero {
+  flex: 12;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 30px 0;
+}
+
+.header,
+.hero-main {
+  padding: 0 10vw;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-logo,
+.hero-main-text {
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-logo  {
+  font-size: 24px;
+}
+
+.header a,
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header a {
+  text-decoration-line: none;
+}
+
+.header-link.one {
+  margin-left: auto;
+}
+
+.hero-main {
+  flex: 4;
+  display: flex;
+  align-items: stretch;
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+}
+
+.hero-image {
+  background-color: #838488;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-text {
+  color: #f9faf8;
+}
+
+/* CSS for the information section */
+.info {
+  flex: 25;
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header {
+  flex: 3;
+}
+
+.quote-container {
+  flex: 3;
+  background-color: #e5e7eb;
+}
+
+.call-to-action {
+  flex: 2;
+}
+
+/* CSS for the footer */
+.footer {
+  flex: 2;
+  background-color: #1f2937;
+  font-size: 12px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
